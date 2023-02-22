@@ -130,6 +130,11 @@ body {
   margin-left: 20px;
 }
 
+.icon-envelope {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .adress__format:hover,
 .adress__format:focus {
   fill: var(--standard-blue);
