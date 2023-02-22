@@ -93,17 +93,16 @@ body {
 .adress__wrapper {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .adress__format {
   color: var(--light-grey);
+  display: flex;
 }
 
 .nav__format:hover,
 .nav__format:focus,
-.adress__format:hover,
-.adress__format:focus,
 .adress__format-footer:hover,
 .adress__format-footer:focus {
   color: var(--standard-blue);
@@ -123,6 +122,19 @@ body {
   border-bottom: 1px solid #ececec;
   content: "";
   display: block;
+}
+
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.adress__format:hover,
+.adress__format:focus {
+  fill: var(--standard-blue);
+  cursor: pointer;
+  color: var(--standard-blue);
 }
 
 /* NAV END */
@@ -205,6 +217,13 @@ body {
   padding-bottom: 94px;
 }
 
+.lorem-ipsum__box--item {
+  background: var(--background-button-color);
+  border-radius: 4px;
+  padding: 25px 102.34px;
+  margin-bottom: 30px;
+}
+
 /* LOREM IPSUM END*/
 
 /* MAIN BUSINESS START*/
@@ -276,6 +295,46 @@ body {
 }
 
 /* OUR TEAM END */
+
+/* OUR CLIENTS START */
+
+.our-clients {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.our-clients-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-clients-list-item {
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-clients-list-item:hover {
+  cursor: pointer;
+  fill: var(--standard-blue);
+  border-color: var(--standard-blue);
+}
+
+/* OUR CLIENTS END */
 
 /* FOOTER START */
 
