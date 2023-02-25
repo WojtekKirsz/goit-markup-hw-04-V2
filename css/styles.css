@@ -361,7 +361,8 @@ body {
   align-items: center;
 }
 
-.our-clients-list-item:hover {
+.our-clients-list-item:hover,
+.our-clients-list-item:focus {
   cursor: pointer;
   fill: var(--standard-blue);
   border-color: var(--standard-blue);
